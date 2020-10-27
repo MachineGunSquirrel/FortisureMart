@@ -59,3 +59,21 @@ navbar h1{
 .product-card-three > button{
 font-size: 14px;
 }
+
+.product-card-one > button > span,
+.product-card-two > button > span,
+.product-card-three > button > span{
+font-size: 12px;
+}
+
+.page-footer{
+  background-color: #5DE1D9;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.btn-contact-us{
+  background-color: #3B3A6D;
+  margin: auto;
+  padding: 10px 50px 10px 50px;
+}

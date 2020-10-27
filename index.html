@@ -84,7 +84,7 @@
             <p>The Best Shoes Around
             </p>
 
-            <button class='btn btn-success'>Add To Cart | $64.99
+            <button class='btn btn-success'>Add To Cart | <span>$64.99</span>
             </button>
 
           </div><br>
@@ -100,21 +100,21 @@
             <p>A Nice Fitting Shirt
             </p>
 
-            <button class='btn btn-success'>Add To Cart | $14.99</button>
+            <button class='btn btn-success'>Add To Cart | $14.99</span></button>
           </div><br>
 
         <!-- Product 3 -->
           <div class='product-card-three'>
 
             <p class='product-header-text'>Fortisure 
-              <span style='color: #9F1224;'>Pants</span></p>
+              <span style='color: #9F1224;'><span>Pants</span></p>
 
             <img src="./Public\Images\Products\jeans-black.jpg">
             
             <p>Water Resistant Pants for every occasion
             </p>
 
-            <button class='btn btn-success'>Add To Cart | $19.99
+            <button class='btn btn-success'>Add To Cart | <span>$19.99</span>
             </button>
 
           </div><br>
@@ -122,9 +122,24 @@
 
 <!-- Footer -->
   <hr>
-  <div>
-  <button>Contact Us</button>
-</div>
+  <div class='page-footer'>
+
+    <form action="" style='margin-left: 40%; width: 350px;'>
+
+      <label>Full Name:</label><br>
+      <input type='text' class='form-control' placeholder="John Smith">
+
+      <label>Email:</label><br>
+      <input type='email' class='form-control' placeholder="johnsmith@aol.com">
+
+      <label>How can we help?</label><br>
+      <textarea type='textarea' class='form-control' placeholder="Database Analytics"></textarea>
+
+      <input type='submit' class='btn-contact-us btn-primary' value="Contact Us">
+
+    </form>
+
+  </div>
 </body>
 
 </html>
