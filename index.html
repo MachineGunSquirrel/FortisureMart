@@ -8,7 +8,7 @@
   <title>Document</title>
   <!-- Links -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" src='./Public/Styles/custom-styles.css'>
+    <link rel="stylesheet" href='./Public/Styles/custom-styles.css'>
   <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -30,8 +30,8 @@
   <div style='background-color: #5DE1D9; 
               position:sticky; 
               top: 0;'>
-              
-    <button class='btn btn-primary'>Shop</button>
+
+    <button class='btn-shop btn-primary'>Shop</button>
 
     <h1 style='text-align: center; 
                 color:#3B3A6D; 
@@ -73,25 +73,50 @@
     <!-- Card Container -->
       <div>
         <!-- Product 1 -->
-          <div>
-            <p>Fortisure Shoes</p>
-            <img src="">
-            <p>The Best Shoes Around</p>
-            <button>Add To Cart | $64.99</button>
+          <div class='product-card-one'>
+
+            <p class='product-header-text'>Fortisure 
+              <span style='color: #9F1224;'>Shoes</span>
+            </p>
+
+            <img src="./Public\Images\Products\shoes-white.jpg">
+
+            <p>The Best Shoes Around
+            </p>
+
+            <button class='btn btn-success'>Add To Cart | $64.99
+            </button>
+
           </div><br>
+
         <!-- Product 2 -->
-          <div>
-            <p>Fortisure Shoes</p>
-            <img src="">
-            <p>A Nice Fitting Shirt</p>
-            <button>Add To Cart | $14.99</button>
+          <div class='product-card-two'>
+
+            <p class='product-header-text'>Fortisure 
+              <span style='color: #9F1224;'>Shoes</span></p>
+
+            <img src="./Public\Images\Products\t-shirt-black.jpg">
+
+            <p>A Nice Fitting Shirt
+            </p>
+
+            <button class='btn btn-success'>Add To Cart | $14.99</button>
           </div><br>
+
         <!-- Product 3 -->
-          <div>
-            <p>Fortisure Pants</p>
-            <img src="">
-            <p>Water Resistant Pants for every occasion</p>
-            <button>Add To Cart | $19.99</button>
+          <div class='product-card-three'>
+
+            <p class='product-header-text'>Fortisure 
+              <span style='color: #9F1224;'>Pants</span></p>
+
+            <img src="./Public\Images\Products\jeans-black.jpg">
+            
+            <p>Water Resistant Pants for every occasion
+            </p>
+
+            <button class='btn btn-success'>Add To Cart | $19.99
+            </button>
+
           </div><br>
       </div><hr>
 
