@@ -13,133 +13,152 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <style>
-    *{
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    body{
-      margin:0;
-    }
-  </style>
 
 </head>
 
 
 <body>
-<!-- Nav Bar -->
-  <div style='background-color: #5DE1D9; 
-              position:sticky; 
-              top: 0;'>
+  <div class='page-grid'>
+  <!-- Nav Bar -->
+    <div class='navbar-grid'>
 
-    <button class='btn-shop btn-primary'>Shop</button>
+      <button class='btn-shop btn-primary'>Shop</button>
 
-    <h1 style='text-align: center; 
-                color:#3B3A6D; 
-                font-weight: bold; 
-                font-size: 46px; 
-                margin-top: 0px; 
-                margin-bottom: 15px;
-                padding-top: 15px;'>
-      Fortisure<span style='color: #9F1224;'>Mart</span>
-    </h1>
+      <h1 style='grid-column 2;
+                  text-align: center; 
+                  color:#3B3A6D; 
+                  font-weight: bold; 
+                  font-size: 46px; 
+                  margin-top: 0px; 
+                  margin-bottom: 15px;
+                  padding-top: 15px;'>
+        Fortisure<span style='color: #9F1224;'>Mart</span>
+      </h1>
 
-    <img style='float: right;
-                margin-top: 20px;
-                margin-right: 100px;
-                cursor: pointer;
-                ' src="Public\Images\shopping-cart.png" alt="">
+      <img style='grid-column: 3;
+                  float: right;
+                  /* margin-top: 20px;
+                  margin-right: 100px; */
+                  margin: auto;
+                  margin-right: 15%;
+                  cursor: pointer;
+                  ' src="Public\Images\shopping-cart.png" alt="">
 
-    <hr>
-  </div>
-<!-- Nav Bar -->
+      <hr>
+    </div>
+  <!-- Nav Bar -->
 
-<!-- Welcome Message -->
-  <div>
-    <h2>Reasons to choose FortisureMart:</h2>
-      <ul>
-        <li>Provides quality goods at affordable prices</li>
-        <li>We internally train our employees so they are the highest quality</li>
-        <li>We use the latest technologies to surpass the competition</li>
-      </ul>
-  </div>
-<!-- Mission Statement -->
-  <div>
-    <center><h2>Mission Statement:</h2></center>
-      <p>To build a nationally respected market place that utilizes the latest technologies to add great value to our customers</p>
-  </div>
-  <hr>
-<!-- Products -->
-  <h2>Trending Products</h2>
-    <!-- Card Container -->
-      <div>
-        <!-- Product 1 -->
-          <div class='product-card-one'>
+  <!-- Welcome Message -->
+    <div class="our-info-grid">
+      <!-- Text left -->
+        <div>
+          <h2 class='info-text-left'>Reasons to choose FortisureMart:</h2>
+            <ul>
+              <li>Provides quality goods at affordable prices</li>
+              <li>We internally train our employees so they are the highest quality</li>
+              <li>We use the latest technologies to surpass the competition</li>
+            </ul>
+        </div>
+      <!-- Text left -->
 
-            <p class='product-header-text'>Fortisure 
-              <span style='color: #9F1224;'>Shoes</span>
-            </p>
+      <!-- Text Right -->
+        <div class='info-text-right'>
+          <center><h2>Mission Statement:</h2></center>
+            <p>To build a nationally respected market place that utilizes the latest technologies to add great value to our customers</p>
+        </div>
+  
+      <!-- Text Right -->
 
-            <img src="./Public\Images\Products\shoes-white.jpg">
+    </div>
+  <!-- Product Container -->
+    <div class='trending-container-grid'>
+      <h2>Trending Products</h2>
+        <!-- Card Container -->
+          
+            <!-- Product 1 -->
+              <div class='product-card-one-grid'>
 
-            <p>The Best Shoes Around
-            </p>
+                <p class='product-header-text'>Fortisure 
+                  <span style='color: #9F1224;'>Shoes</span>
+                </p>
 
-            <button class='btn btn-success'>Add To Cart | <span>$64.99</span>
-            </button>
+                <img src="./Public\Images\Products\shoes-white.jpg">
 
-          </div><br>
+                <p>The Best Shoes Around
+                </p>
 
-        <!-- Product 2 -->
-          <div class='product-card-two'>
+                <button class='btn btn-success'>Add To Cart | <span>$64.99</span>
+                </button>
 
-            <p class='product-header-text'>Fortisure 
-              <span style='color: #9F1224;'>Shoes</span></p>
+              </div><br>
 
-            <img src="./Public\Images\Products\t-shirt-black.jpg">
+            <!-- Product 2 -->
+              <div class='product-card-two-grid'>
 
-            <p>A Nice Fitting Shirt
-            </p>
+                <p class='product-header-text'>Fortisure 
+                  <span style='color: #9F1224;'>Shoes</span></p>
 
-            <button class='btn btn-success'>Add To Cart | $14.99</span></button>
-          </div><br>
+                <img src="./Public\Images\Products\t-shirt-black.jpg">
 
-        <!-- Product 3 -->
-          <div class='product-card-three'>
+                <p>A Nice Fitting Shirt
+                </p>
 
-            <p class='product-header-text'>Fortisure 
-              <span style='color: #9F1224;'><span>Pants</span></p>
+                <button class='btn btn-success'>Add To Cart | $14.99</span></button>
+              </div><br>
 
-            <img src="./Public\Images\Products\jeans-black.jpg">
-            
-            <p>Water Resistant Pants for every occasion
-            </p>
+            <!-- Product 3 -->
+              <div class='product-card-three-grid'>
 
-            <button class='btn btn-success'>Add To Cart | <span>$19.99</span>
-            </button>
+                <p class='product-header-text'>Fortisure 
+                  <span style='color: #9F1224;'><span>Pants</span></p>
 
-          </div><br>
-      </div><hr>
+                <img src="./Public\Images\Products\jeans-black.jpg">
+                
+                <p>Water Resistant Pants for every occasion
+                </p>
+
+                <button class='btn btn-success'>Add To Cart | <span>$19.99</span>
+                </button>
+
+              </div><br>
+        
+      </div>
 
 <!-- Footer -->
-  <hr>
-  <div class='page-footer'>
+  <div class='page-footer-grid'>
+    
+    <!-- Left -->
+      <div></div>
+    <!-- Left -->
+    <!-- Center -->
+      <div class='footer-center'>
 
-    <form action="" style='margin-left: 40%; width: 350px;'>
+        <form  class='form-contact' action="">
 
-      <label>Full Name:</label><br>
-      <input type='text' class='form-control' placeholder="John Smith">
+          <label>Full Name:</label><br>
+          <input type='text' class='form-control' placeholder="John Smith">
 
-      <label>Email:</label><br>
-      <input type='email' class='form-control' placeholder="johnsmith@aol.com">
+          <label>Email:</label><br>
+          <input type='email' class='form-control' placeholder="johnsmith@aol.com">
 
-      <label>How can we help?</label><br>
-      <textarea type='textarea' class='form-control' placeholder="Database Analytics"></textarea>
+          <label>How can we help?</label><br>
+          <textarea type='textarea' class='form-control' placeholder="Database Analytics"></textarea>
 
-      <input type='submit' class='btn-contact-us btn-primary' value="Contact Us">
+          <input type='submit' class='btn-contact-us btn-primary' value="Contact Us">
 
-    </form>
+        </form>
+      </div>
+    <!-- Center -->
+    <!-- Right -->
+      <div class='footer-right'>
+        <p>Copyright | 2020 FortisureIT</p>
+      </div>
+    <!-- Right -->
+    </div>
+    </div>
 
-  </div>
+    </div>
+</div>
 </body>
 
 </html>
