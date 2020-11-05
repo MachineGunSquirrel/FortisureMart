@@ -59,5 +59,6 @@
 <?php
 
     include './View/footer.php';
+    include './Controller/form-submit.php'
 
 ?>
