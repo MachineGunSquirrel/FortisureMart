@@ -9,6 +9,8 @@
         </h1>
             
         <div class='cart-container'>
+        <img class='shopping-cart-img' src='./View/Public/Images/shopping-cart.png' data-toggle='modal' data-target='#modal-users-cart'>
+
             <?php
             
                 //total variable
@@ -26,7 +28,6 @@
             ?>
         </div>
 
-        <img class='shopping-cart-img' src='./View/Public/Images/shopping-cart.png' data-toggle='modal' data-target='#modal-users-cart'>
     </div>
 <!-- Navigation Bar -->
 
@@ -57,8 +58,21 @@
                     <!-- Modal Footer -->
                         <div class='modal-footer'>
                             <!-- second close button -->
-                                <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+                                <!-- <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button> -->
                             <!-- second close button -->
+
+                            <!-- Form -->
+                                <form action="" method='post'>
+                                    <label for="nameInput">First Name</label>
+                                    <input id="nameInput" name="cartCustomerName" style='width: 150px;'>
+                                    
+                                    <label for="idInput">ID</label>
+                                    <input id="idInput" name="cartCustomerName" style='width: 45px; margin-right: 50px;'>
+
+                                    <button type='submit' class='btn btn-primary'>Purchase</button>
+                                </form>
+                            <!-- Form -->
+
                         </div>
                     <!-- Modal Footer -->
                 </div>
