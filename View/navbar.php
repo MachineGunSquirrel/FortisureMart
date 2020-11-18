@@ -23,7 +23,7 @@
                 }
 
                 //display how many items are in the cart
-                echo "<sub class='items-in-cart'>{$itemCount}</sub>";
+                echo "<sub class='items-in-cart' id='items-in-cart'>{$itemCount}</sub>";
             
             ?>
         </div>
@@ -48,7 +48,7 @@
                     <!-- Modal Header -->
                 
                     <!-- Modal Body -->
-                        <div class='modal-body'>
+                        <div class='modal-body' id='modal-body'>
                             <?php
                                 include './Controller/modal-display.php';
                             ?>
